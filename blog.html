@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="shortcut icon" href="./assets/img/pfp-with-bg.jpg" type="image/webp"> -->
+    <!-- <link rel="icon" href="./assets/img/pfp-with-bg.jpg" type="image/webp"> -->
+    <meta name="description"
+        content="Varun is currently a first year undergrad from India. He is enthusiastic about web development and Open-Source." />
+    <meta property="og:title" content="Varun Gupta" />
+    <meta property="og:url" content="https://thepranaygupta.github.io/" />
+    <meta property="og:description"
+        content="Varun is currently a first year undergrad from India. He is enthusiastic about web development and Open-Source." />
+    <!-- <meta property="og:image:secure_url" content="./assets/img/pfp-with-bg.jpg" /> -->
+    <!-- <meta property="og:image" content="./assets/img/pfp-with-bg.jpg" /> -->
+    <meta property="profile:username" content="thepranaygupta" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Varun Gupta" />
+    <!-- <meta name="twitter:image" content="./assets/img/pfp-with-bg.jpg" /> -->
+    <!-- <meta name="twitter:url" content="https://thepranaygupta.github.io/" /> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Varun Gupta</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/4bf48f78b4.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Varun Gupta</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list grid">
+                    <li class="nav_item">
+                        <a href="./index.html" class="nav_link active-link">
+                            <i class="uil uil-estate nav_icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class="uil uil-message nav-icon nav_icon"></i> Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav_close" id="nav-close"></i>
+            </div>
+
+            <div class="nav_btns">
+                <!-- Change Theme -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+        <div id="educationheader">
+        </div>
+
+        <!-- Blog -->
+        <section class="blog section" id="blog">
+            <h2 class="section_title">Blog</h2>
+            <span class="section_subtitle">Latest Stories</span>
+
+            <div class="blog_container container">
+
+                <div class="blog_content">
+                    <a href="./assets/blogs/blog1.html" target="_blank">
+                        <h3 class="blog_title">ChatGPT Vs Bard: Which is better for coding?</h3>
+                        <img src="./assets/img/ChatGPT-vs-Bard-c.png" alt="ChatGPT-vs-Bard-c.png"
+                            class="interactive-image" />
+                    </a>
+                </div>
+
+                <div class="blog_content">
+                    <a href="./assets/blogs/blog2.html" target="_blank">
+                        <h3 class="blog_title">The top ChatGPT plugins for developers</h3>
+                        <img src="./assets/img/ChatGPTPlugins-870x428.png" alt="ChatGPT-GPT.png"
+                            class="interactive-image" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section class="contact section" id="contact">
+            <h1 class="section_title">Contact Me</h1>
+            <span class="section_subtitle">
+                Want to connect? My inbox is always open!
+            </span>
+
+            <div class="contact_container container grid">
+                <div>
+                    <a href="mailto:varun.gup@students.iiit.ac.in" target="_blank">
+                        <div class="contact_info">
+                            <i class="uil uil-envelope-alt contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Email</h3>
+                                <span class="contact_subtitle">varun.gup@students.iiit.ac.in</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/varun_gupta_8976/" target="_blank">
+                        <div class="contact_info">
+                            <i class="uil uil-instagram-alt contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Instagram</h3>
+                                <span class="contact_subtitle">@varun_gupta_8976</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="https://maps.app.goo.gl/PTA7csFjwGpmjwKBA" target="_blank">
+                        <div class="contact_info">
+                            <i class="uil uil-location-point contact_icon"></i>
+                            <div>
+                                <h3 class="contact_title">Location</h3>
+                                <span class="contact_subtitle">Hyderabad, India</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <form action="https://formspree.io/f/xyyozeaq" class="contact_form grid" id="contact-form"
+                    method="POST">
+                    <div id="alert" class="alert_style"></div>
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label class="contact_label">Name</label>
+                            <input type="text" name="name" class="contact_input" id="name" required>
+                        </div>
+                        <div class="contact_content">
+                            <label for="email" class="contact_label">Email</label>
+                            <input type="email" name="email" class="contact_input" id="email" required>
+                        </div>
+                    </div>
+                    <div class="contact_content">
+                        <label for="subject" class="contact_label">Subject</label>
+                        <input type="text" name="subject" class="contact_input" id="subject" required>
+                    </div>
+                    <div class="contact_content">
+                        <label for="message" class="contact_label">Message</label>
+                        <textarea name="message" id="" cols="0" rows="7" class="contact_input message" id="message"
+                            style="resize: vertical;" required></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button-flex">
+                            Send Message
+                            <i class="uil uil-message button_icon"></i>
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="footer_bg">
+            <div class="footer_container container grid">
+                <div>
+                    <h1 class="footer_title">Varun Gupta</h1>
+                    <span class="footer_subtitle">Web Developer</span>
+                </div>
+
+                <ul class="footer_links">
+                    <li>
+                        <a href="#about" class="footer_link">About</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer_link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer_socials">
+                    <a href="https://www.linkedin.com/in/varun-gupta-489301290/" target="_blank" class="footer_social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    <a href="mailto:varun.gup@students.iiit.ac.in" class="footer_social">
+                        <i class="uil uil-envelope-alt"></i>
+                    </a>
+                    <a href="https://www.instagram.com/varung006/" target="_blank" class="footer_social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer_copy">&#169; Varun Gupta. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
